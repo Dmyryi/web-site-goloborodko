@@ -35,7 +35,57 @@
     </ul>
     
     <button class="button" type="button" data-modal-open>Зв'язатись з нами</button>
-    </nav>
+    <button type="button" class="burger-btn"data-menu-button>
+        <svg class="burger-icon">
+            <use href="/images/sprite/burger.svg#icon-menu_40px-1"></use>
+        </svg>
+    </button>
+    <ul class="connection-list list">
+        <li class="connection-item">
+            <a class="connection link" href="mailto:info@devstudio.com" lang="en">
+                <svg class="devise-icon">
+                    <use href="./images/sprite/symbol-defs.svg#icon-mail4"></use>
+                </svg>info@devstudio.com</a>
+    </li>
+    <li class="connection-item">
+        <a class="connection link" href="tel:+380961111111">
+            <svg class="devise-icon">
+                <use href="./images/sprite/symbol-defs.svg#icon-Vector-3"></use>
+            </svg>+38 096 111 11 11</a>
+                </li>
+                </ul>
+</div>
+   <div class="mobile-menu is-open" data-menu>
+       <button type="button" class="mobile-menu-close-btn"data-menu-close>
+           <svg class="mobile-menu-close-icon">
+               <use href="/images/sprite/close-btn.svg#icon-close_40px"></use>
+           </svg>
+       </button>
+       <ul class="mobile-menu-list">
+           <li class="mobile-menu-item list">
+               <a href="index.html" class="mobile-menu-link link">Студия</a>
+           </li>
+           <li class="mobile-menu-item list">
+               <a href="portfolio.html" class="mobile-menu-link link">Портфолио</a>
+           </li>
+           <li class="mobile-menu-item list">
+               <a href="" class="mobile-menu-link link">Контакты</a>
+           </li>
+       </ul>
+<ul class="burger-connection">
+<li class="connection-menu-burger list">
+<a class="connection-burger link" href="tel:+380961111111">+38 096 111 11 11</a>
+</li>
+<li class="connection-menu list"><a class="connection-burger-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
+</ul>
+<ul class="social-burger">
+<li class="social-web list"><a class="social-web-link link">Instagram</a></li>
+<li class="social-web list"><a class="social-web-link link">Twitter</a></li>
+<li class="social-web list"><a class="social-web-link link">Facebook</a></li>
+<li class="social-web list"><a class="social-web-link link">LinkedIn</a></li>
+</ul>
+   </div>    
+</nav>
         </div>
        
 </header>   
@@ -97,18 +147,18 @@
     <div class="container">
         <ul class="novini-list">
             <li class="novini-items list">
-        <video poster="images/img/maxresdefault.jpg" src="video/novini/Novini_goloborodko-1.mp4" width="280" height="240" controls>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/NdZHdic7TsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         </video>
             </li>
             <li class="novini-items list">
-                <video poster="images/img/sddefault.jpg" src="video/novini/Novini_goloborodko-2.mp4" width="280" height="240" controls></video>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/Ch8ObSnDUMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </li>
             <li class="novini-items list">
-                <video poster="images/img/581678_w_300.jpg" src="video/novini/Novini-goloborodko-3.mp4" width="280" height="240" controls></video>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/yNfw_0cZwz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </li>
             <li class="novini-items list">
-                <video poster="images/img/загружено.jpg" src="video/novini/Novini-goloborodko-4.mp4" width="280" height="240" controls></video>
+                <iframe width="280" height="240" src="https://www.youtube.com/embed/_YCCUea5RnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </li>
         </ul>
         <button class="buttons-link" type="button">
@@ -203,9 +253,9 @@
             <use href="./images/sprite/1symbol-defs.svg#icon-close" width="30px" height="30px"></use>
         </svg>
     </button>
-    <h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
+    <h2 class="modal-text">Залиште свої дані ми вам передзвоним</h2>
     <form action="#" class="modal-form">
- <label for="user-name" class="modal-form-field text text">Имя</label>
+ <label for="user-name" class="modal-form-field text text">Ім'я</label>
      <span class="modal-form-input-wrapper">
        
          <input name="user-name" id="user-name" type="text" class="modal-form-input" required minlength="2">
@@ -223,9 +273,6 @@
 </svg>
     </span>   
 
-
-<input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
-<label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю &nbsp;<a class="contract" href="">Условия договора</a></label>
 <button type="submit" class="button">Отправить</button>
     </form>
 </div>
