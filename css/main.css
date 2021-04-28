@@ -1,4 +1,4 @@
-
+html{
   overflow-x: hidden;
 }
 
@@ -301,6 +301,11 @@ img {
 
 .tvory-list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.tvory-list-1{
+  display:flex;
   flex-wrap: wrap;
 }
 
@@ -711,9 +716,8 @@ transition: border-color 250ms linear;
   display:flex;
   width:18px;
   height:18px;
-top: 50%;
 transform:translateY(-50%) ;
-left: 12px;
+left: 50px;
 transition: fill 250ms linear;
 }
 
@@ -727,20 +731,35 @@ transition: fill 250ms linear;
   border-radius: 50%;
 }
 
+.text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 0, 84;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top:15px;
+}
 
-.button {
-  border-radius: 5px;
-  margin-right: 500px;
-  min-width: 200px;
-  margin-left: 50px;
-  padding: 10px 32px;
-  display: block;
+.modal-text{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0, 84;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top:15px;
+}
+
+.heading1{
+  max-height: 120px;
+  width: 1200px;
   margin: 0 auto;
-  background-color: #2196f3;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-} 
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
