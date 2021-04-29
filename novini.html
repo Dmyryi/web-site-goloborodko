@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Goloborodko</title>
+    
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="container">
             <nav class="header-logo">
@@ -17,10 +18,10 @@
             <ul class="header-items">
     
         <li class="header-list list">
-            <a class="header-link link" href="index.html">Головна</a>
+            <a href="index.html" class="header-link link" href="index.html">Головна</a>
         </li>
         <li class="header-list list">
-            <a class="header-link link" href="biografy.html">Біографія</a>
+            <a href="biografy.html" class="header-link link" href="biografy.html">Біографія</a>
         </li>
         <li class="header-list list">
             <a class="header-link link" href="novini.html">Новини</a>
@@ -32,12 +33,43 @@
             <a class="header-link link" href="pro_nas.html">Про нас</a>
         </li>
     </ul>
-    
-    <button class="button" type="button">Зв'язатись з нами</button>
-    </nav>
-        </div>
-       
-</header>
+   
+
+</nav>
+
+<button type="button" class="burger-btn" data-menu-button>
+    <svg class="burger-icon">
+        <use href="/images/sprite/symbol-defs.svg#icon-menu_40px"></use>
+    </svg>
+</button>
+
+<div class="mobile-menu is-open" data-menu>
+    <button type="button" class="mobile-menu-close-btn"data-menu-close>
+        <svg class="mobile-menu-close-icon">
+            <use href="/images/sprite/symbol-defs.svg#icon-close_40px"></use>
+        </svg>
+    </button>
+    <ul class="mobile-menu-list">
+        <li class="mobile-menu-item list">
+            <a href="index.html" class="mobile-menu-link link">Головна</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="biografy.html" class="mobile-menu-link link">Біографія</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="tvory.html" class="mobile-menu-link link">Новини</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="tvory.html" class="mobile-menu-link link">Твори</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="pro_nas.html" class="mobile-menu-link link">Про нас</a>
+        </li>
+    </ul>
+</div>
+
+</header>   
+<script src="js/mobile-menu.js"></script>
 <main class="main-novini">
     <div class="container">
         <h1 class="novini-heading-1">Новини</h1>
@@ -84,5 +116,4 @@
  
 </footer>   
 </body>
->>>>>>> 1a45ac4b0c4b0c5215e9ea0ddfa81d48a0adb62f
 </html>
