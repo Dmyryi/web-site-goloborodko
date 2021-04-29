@@ -33,14 +33,43 @@
             <a class="header-link link" href="pro_nas.html">Про нас</a>
         </li>
     </ul>
-    
-    <button class="button" type="button" data-modal-open>Зв'язатись з нами</button>
    
-</div>   
+
 </nav>
-        </div>
-       
+
+<button type="button" class="burger-btn" data-menu-button>
+    <svg class="burger-icon">
+        <use href="/images/sprite/symbol-defs.svg#icon-menu_40px"></use>
+    </svg>
+</button>
+
+<div class="mobile-menu is-open" data-menu>
+    <button type="button" class="mobile-menu-close-btn"data-menu-close>
+        <svg class="mobile-menu-close-icon">
+            <use href="/images/sprite/symbol-defs.svg#icon-close_40px"></use>
+        </svg>
+    </button>
+    <ul class="mobile-menu-list">
+        <li class="mobile-menu-item list">
+            <a href="index.html" class="mobile-menu-link link">Головна</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="biografy.html" class="mobile-menu-link link">Біографія</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="tvory.html" class="mobile-menu-link link">Новини</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="tvory.html" class="mobile-menu-link link">Твори</a>
+        </li>
+        <li class="mobile-menu-item list">
+            <a href="pro_nas.html" class="mobile-menu-link link">Про нас</a>
+        </li>
+    </ul>
+</div>
+
 </header>   
+<script src="js/mobile-menu.js"></script>
 <div class="container menu-button">
     <ul class="header-menu">
         <li class="menu-list list">
@@ -67,7 +96,7 @@
     </ul>
     </div>
 
-    <main>
+     <main>
 <section class="container section-background">
 <p><h2 class="heading">Моє слово не вогнисте,</br>
 В моїй поезії – метелики, бджоли.</br>
@@ -80,10 +109,10 @@
 </section>
 <section class="biografy">
     
-        <h2 class="heading-1" id="biografia">
+         <h2 class="heading-1" id="biografia">
             <a>Біографія</a></h2>
             <div class="biografy-textimg"> 
-        <img src="./images/img/unnamed.jpg">
+        <img class="biografy-img" src="/images/img/unnamed.jpg">
     <h2 class="biografy-text">Мене не друкували майже 20 років, я пройшов певний шлях випробувань у літературному житті. Поза друком, славою,
         гонорарами і повагою вдячних читачів. В інтерв’ю, біографії довгий час писав і розказував про те, як мене переслідували,
         відраховували, як я страждав… А тоді зрозумів, що не можна цього робити: люди люблять успішних людей. А у мене життя
@@ -92,7 +121,7 @@
    
 <button class="buttonse" type="button"><a class="buttonse-link link" href="biografy.html">Більш про життя</a></button>
 </section>
-<section class="novini">
+ <section class="novini">
     <h2 class="novini-heading" id="novini">
         Новини
     </h2>
@@ -113,7 +142,7 @@
                 <iframe width="280" height="240" src="https://www.youtube.com/embed/_YCCUea5RnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </li>
         </ul>
-        <button class="buttons-link" type="button">
+        <button class="buttonse" type="button">
             <a class="buttonse-link link" href="novini.html">Більш новин</a>
         </button>
     </div>
@@ -144,26 +173,26 @@
 <section>
     <h2 class="heading-1" id="organizatory">Організатори</h2>
     <div class="container div-1">
-        <ul class="">
+        <ul class="organizatory-ul">
             <li class="orgnizatory-item list">
                 <a href="https://www.google.com/maps/d/embed?mid=1jxvkzucI0fSs-EKklnIyGPP876MGVgpP">
                     <img class="img-organizatory" src="images/organizatory/Screenshot_2020-06-09-«Літературна-візитка-краю»-Головна1-300x111.png" alt="Інтерактивна мапа" width="352px" height="140px">
                 </a>
                 <h3 class="organizatory-text">Інтерактивна мапа</h3>
             </li>
-        </ul>
-        <ul>
             <li class="orgnizatory-item list">
                 <a href="https://www.facebook.com/LiteraturnaVizytkaKraiu/">
                     <img class="img-organizatory" src="images/organizatory/Screenshot_2020-06-09-«Літературна-візитка-краю»-Головна-300x114.png" alt="Фейсбук" width="352px">
                 </a>
                 <h3 class="organizatory-text">Сторінка конкурсу у Facebook</h3>
             </li>
-        </ul>
-        <a class="link" href="https://litvizytka.org.ua/about">
-            <img class="img-organizatory-1" src="images/organizatory/Screenshot_2020-12-24-Переможці-конкурсу-2020-–-Літературна-візитка-краю-300x232.png" alt="Сторінка конкурсу" width="352px" height="140px">
-            <h3 class="organizatory-text">Сайт конкурсу</h3>
-        </a>
+        <li class="organizatory-item list">
+            <a class="link" href="https://litvizytka.org.ua/about">
+                <img class="img-organizatory-1" src="images/organizatory/Screenshot_2020-12-24-Переможці-конкурсу-2020-–-Літературна-візитка-краю-300x232.png" alt="Сторінка конкурсу" width="352px" height="140px">
+                <h3 class="organizatory-text">Сайт конкурсу</h3>
+            </a>
+        </li>
+        
     </div>
         
     
@@ -198,34 +227,6 @@
     
    </footer>
  <!-- Modal-bottom --> 
-<div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-    <button class="modal-close-btn" data-modal-close>
-        <svg class="modal-close-svg" data-modal-close>
-            <use href="./images/sprite/symbol-defs.svg#icon-close_40px" width="30px" height="30px"></use>
-        </svg>
-    </button>
-    <h2 class="modal-text">Залиште свої дані ми вам передзвоним</h2>
-    <form action="#" class="modal-form">
- <label for="user-name" class="modal-form-field text text">Ім'я</label>
-     <span class="modal-form-input-wrapper">
-       
-         <input name="user-name" id="user-name" type="text" class="modal-form-input" required minlength="2">
-    </span>
-     
-    
- <label for="user-phone" class="modal-form-field text">Телефон</label>
-    <span class="modal-form-input-wrapper ">
-        <input name="user-phone" id="user-phone" type="tel" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="099-111-11-11">
-<svg class="modal-form-icon">
-    <use href="./images/sprite/modal-sprite.svg#icon-Vector-1"></use>
-</svg>
-    </span>   
 
-<button type="submit" class="button">Отправить</button>
-   </form>
-</div>
-</div>
-<script src="./js/modal.js"></script>
 </body>
 </html>
