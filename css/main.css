@@ -256,7 +256,7 @@ img {
 }
 
 .novini {
-  background-image: url("/images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
+  background-image: url("./images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -768,7 +768,7 @@ transition: fill 250ms linear;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #212121;
-} */
+} 
 
 
 .container {
@@ -1119,7 +1119,7 @@ height: 40px;
   }
   
   .novini {
-    background-image: url("/images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
+    background-image: url("./images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1926,7 +1926,7 @@ height: 40px;
     }
     
     .novini {
-      background-image: url("/images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
+      background-image: url("./images/background-image/Andrej-Lugansk-sony-nex-F3-35mm-F9-1-1000-iso-200-photoshop-instagram-ender__1-HD-1805x1200.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
