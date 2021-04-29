@@ -141,7 +141,7 @@ img {
 } */
 
 .section-background {
-  background-image: url("../images/background-image/vasil-goloborodko-hronolog-chna-tablitsya--e1598957199509_auto_x2.jpg");
+  background-image: url(".../images/background-image/vasil-goloborodko-hronolog-chna-tablitsya--e1598957199509_auto_x2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;
