@@ -495,7 +495,7 @@ img {
   position: absolute;
   margin-top:-60px;
   background-color: #ffffff;
-  width:344px;
+  width:304px;
   margin-left:30px;
   border:1px #9c3d54;
   border-radius: 50px;
@@ -1356,7 +1356,7 @@ height: 40px;
     position: absolute;
     margin-top:-60px;
     background-color: #ffffff;
-    width:344px;
+    width:304px;
     margin-left:30px;
     border:1px #9c3d54;
     border-radius: 50px;
@@ -2163,7 +2163,7 @@ height: 40px;
       position: absolute;
       margin-top:-60px;
       background-color: #ffffff;
-      width:344px;
+      width:304px;
       margin-left:30px;
       border:1px #9c3d54;
       border-radius: 50px;
@@ -2424,7 +2424,7 @@ height: 40px;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
-      color: #ffffff;
+      color: #333333;
     } 
     
     
